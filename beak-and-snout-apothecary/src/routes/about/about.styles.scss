@@ -1,0 +1,32 @@
+.about-us-wrapper {
+  width: 100%;
+  // display: flex;
+  // flex-wrap: wrap;
+  // justify-content: space-between;
+
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .about-us-hero {
+    background-image: url("../../assets/anna-and-ben.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: auto, auto;
+    min-height: 550px;
+    width: 100%;
+  }
+
+  .about-us-content {
+    align-items: center;
+    margin: auto;
+
+    h2 {
+        text-transform: capitalize;
+      text-align: center;
+    }
+  }
+}

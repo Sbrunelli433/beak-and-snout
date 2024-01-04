@@ -6,11 +6,14 @@ import Navigation from './routes/navigation/navigation.component';
 import Shop from './routes/shop/shop.component';
 import About from './routes/about/about.component';
 import Contact from './routes/contact/contact.component';
+import Footer from './components/footer/footer.component';
 
 import './App.css';
+import { Fragment } from 'react';
 
 function App() {
   return (
+    <Fragment>
     <Routes>
       <Route path="/" element={<Navigation />}>
         <Route path="/" index element={<Home />} />
@@ -19,6 +22,8 @@ function App() {
         <Route path="contact" index element={<Contact />} />
       </Route>
     </Routes>
+    <Footer />
+    </Fragment>
   );
 }
 
