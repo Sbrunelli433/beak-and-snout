@@ -37,7 +37,7 @@ export const FooterLogo = styled.div`
 
 export const FooterContent = styled.p`
   clear: none;
-  color: var(--white-smoke);
+  color: white;
   text-align: center;
   margin-left: auto;
   margin-right: auto;

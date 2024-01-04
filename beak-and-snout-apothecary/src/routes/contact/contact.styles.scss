@@ -1,0 +1,108 @@
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  .contact-wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    .contact-left {
+      width: 30%;
+      h2 {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-size: 32px;
+        font-weight: bold;
+        line-height: 36px;
+      }
+      .contact-info {
+        display: flex;
+        flex-direction: column;
+
+        p {
+          margin-bottom: 10px;
+          color: #333;
+          font-family: Sen, sans-serif;
+          font-size: 18px;
+        }
+      }
+    }
+
+    .contact-right {
+      width: 70%;
+      padding-left: 20px;
+      
+      h2 {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-size: 32px;
+        font-weight: bold;
+        line-height: 36px;
+      }
+      p {
+        margin-top: 0;
+        margin-bottom: 10px;
+        color: #333;
+        font-family: Sen, sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+      }
+      .w-form {
+        margin: 0 0 15px;
+        color: #333;
+        font-family: Sen, sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+
+        label {
+          margin-bottom: 5px;
+          font-weight: 400;
+          display: block;
+        }
+        .w-input {
+          width: 100%;
+          height: 38px;
+          color: #333;
+          vertical-align: middle;
+          background-color: #fff;
+          border: 1px solid #ccc;
+          margin-bottom: 10px;
+          padding: 8px 12px;
+          font-size: 14px;
+          line-height: 1.42857;
+          display: block;
+        }
+        textarea {
+          height: auto;
+        }
+        .w-button {
+          color: #fff;
+          line-height: inherit;
+          cursor: pointer;
+          background-color: #3898ec;
+          border: 0;
+          border-radius: 0;
+          padding: 9px 15px;
+          text-decoration: none;
+          display: inline-block;
+        }
+
+        .btn {
+          border: 1px solid #ffe5b4;
+          background-color: #ffe5b4;
+          border-radius: 5px;
+          padding: 5px 25px;
+          font-weight: 700;
+          transition: border-color 0.3s, background-color 0.3s;
+        }
+        .btn:hover {
+          border-color: black;
+          background-color: black;
+        }
+      }
+    }
+  }
+}
