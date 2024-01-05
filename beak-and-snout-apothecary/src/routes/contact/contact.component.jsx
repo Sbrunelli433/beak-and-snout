@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { useForm } from "react-hook-form";
-import ReCAPTCHA from "react-google-recaptcha";
-import { RECAPTCHA_API_KEY } from "../../utils/recaptcha/recaptcha.utils";
+
 
 import "./contact.styles.scss";
 
