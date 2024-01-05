@@ -1,5 +1,7 @@
 [build]	
-   command = "npm build"
+    base    = "docs"
+    publish = "_site"
+    command = "npm build"
     build = "build"
 
 [build.environment]	
